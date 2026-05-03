@@ -1,6 +1,6 @@
 cask "visionpipe" do
-  version "0.1.0"
-  sha256 "032e88dad5506930e8682b22640dbde7647e85338cc86fc28daeb23559a97159"
+  version "0.2.5"
+  sha256 "f81705ce58618dc53ee82cee1f306d227c84026e3a1fc4d9f84e2a91040efc2b"
 
   url "https://github.com/VisionPipe/visionpipe/releases/download/v#{version}/VisionPipe_#{version}_aarch64.dmg"
   name "VisionPipe"
@@ -12,8 +12,8 @@ cask "visionpipe" do
   app "VisionPipe.app"
 
   zap trash: [
-    "~/Library/Application Support/ai.visionpipe.app",
-    "~/Library/Caches/ai.visionpipe.app",
-    "~/Library/Preferences/ai.visionpipe.app.plist",
+    "~/Library/Application Support/com.visionpipe.desktop",
+    "~/Library/Caches/com.visionpipe.desktop",
+    "~/Library/Preferences/com.visionpipe.desktop.plist",
   ]
 end
