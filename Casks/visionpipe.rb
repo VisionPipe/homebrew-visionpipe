@@ -1,6 +1,6 @@
 cask "visionpipe" do
-  version "0.9.5"
-  sha256 "1a87263bdbd7fda76af518d2aa24cebb11b5183d06559e0eaf40c04832afef49"
+  version "0.10.0"
+  sha256 "b6d1792d9e659459bf6d8911d9b5f324ac761d294b27bdfe4d3d549a70a6cbc8"
 
   url "https://github.com/VisionPipe/visionpipe/releases/download/v#{version}/VisionPipe_#{version}_aarch64.dmg"
   name "VisionPipe"
